@@ -1,0 +1,16 @@
+{
+  "name": "demo-with-js-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-test": "newman run Auth.postman_collection.json --folder Flow02 --globals workspace.postman_globals.json -r htmlextra,cli"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^6.1.2",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
