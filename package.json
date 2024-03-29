@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "api-test": "newman run demo01.postman_collection -r htmlextra,junit,cli"
+    "api-test": "newman run demo01.postman_collection.json -r htmlextra,junit,cli"
   },
   "author": "",
   "license": "ISC",
